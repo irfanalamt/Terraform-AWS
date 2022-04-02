@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "b1" {
-# Bucket name should be DNS compatible
+  # Bucket name should be DNS compatible
   bucket = "irfan-tf-testbucket-1"
 
   tags = {
@@ -23,6 +23,6 @@ resource "aws_s3_bucket" "b1" {
 }
 
 output "mys3_bucket_details" {
-    value = aws_s3_bucket.b1
-  
+  value = aws_s3_bucket.b1
+
 }
