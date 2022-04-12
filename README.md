@@ -8,6 +8,9 @@ The following infrastructure will be deployed:
 - CloudFront distribution
 - Route53 record
 
+## Architecture
+![Alt text](https://user-images.githubusercontent.com/64161258/163049717-1aa125b3-49b7-4b9b-9ff1-932c4873e0a4.png "Architecture-1")
+
 ## How to run the code
 
 ### 1) Install Terraform
