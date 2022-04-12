@@ -1,8 +1,12 @@
 # Terraform-AWS
 
-## About the app
+Terraform configuration for deploying a static website to Amazon S3 using the CloudFront distribution.
 
-Here I'm using Terraform to build, change and deploy infrastructure on AWS.
+The following infrastructure will be deployed:
+
+- S3 Bucket
+- CloudFront distribution
+- Route53 record
 
 ## How to run the code
 
